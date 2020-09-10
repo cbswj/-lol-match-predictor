@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".battle_frag">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ToolbarHeight"
+        android:background="#ffffff">
+
+        <EditText
+            android:id="@+id/search_text"
+            android:layout_width="@dimen/search_edit"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nanumbarungothic"
+            android:singleLine="true"
+            android:inputType="textVisiblePassword"
+            android:privateImeOptions="defaultInputmode=korean"
+            android:background="@null"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/trevel_toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/nanumbarungothicbold"
+            android:text="챔피언"
+            android:textColor="#269bff"
+            android:textSize="@dimen/titleSize" />
+
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>

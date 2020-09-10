@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/log_listview_height"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/team_jg"
+        android:layout_width="@dimen/log_img"
+        android:layout_height="@dimen/log_img"
+        android:layout_gravity="top"
+        android:layout_marginStart="49dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/team_mid"
+        android:layout_width="@dimen/log_img"
+        android:layout_height="@dimen/log_img"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/team_top" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/team_ad"
+        android:layout_width="@dimen/log_img"
+        android:layout_height="@dimen/log_img"
+        android:layout_gravity="top"
+        android:layout_marginStart="24dp"
+        app:layout_constraintStart_toEndOf="@+id/team_jg"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/team_sup"
+        android:layout_width="@dimen/log_img"
+        android:layout_height="@dimen/log_img"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/team_mid" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/team_top"
+        android:layout_width="@dimen/log_img"
+        android:layout_height="@dimen/log_img"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/vs"
+        android:layout_width="45dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="200dp"
+        android:src="@drawable/vs"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/team_sup"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:srcCompat="@drawable/vs" />
+
+
+</android.support.constraint.ConstraintLayout>

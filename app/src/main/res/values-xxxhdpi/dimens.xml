@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="ToolbarHeight">40dp</dimen>
+
+    <dimen name="NaviHeight">50dp</dimen>
+
+    <dimen name="titleSize">13sp</dimen>
+
+    <dimen name="view_width">310dp</dimen>
+
+    <dimen name="view_height">10dp</dimen>
+
+    <dimen name="gpsHeight">100dp</dimen>
+
+    <dimen name="gpsContentHeight">50dp</dimen>
+
+    <dimen name="gpsImgMargin">10dp</dimen>
+
+    <dimen name="gpsText">12sp</dimen>
+
+    <dimen name="gpsContentMarjinLeft">30dp</dimen>
+
+    <dimen name="gpsContentMarjinLeft_2">25dp</dimen>
+
+    <dimen name="mainConent">120dp</dimen>
+
+    <dimen name="mainMarginText">5dp</dimen>
+
+    <dimen name="mainwaterpark">12sp</dimen>
+
+    <dimen name="imageWidth">40dp</dimen>
+
+    <dimen name="trlist_img">50dp</dimen>
+
+    <dimen name="trlist_img_marginleft">17.09dp</dimen>
+
+    <dimen name="trlist_li_width">260dp</dimen>
+
+    <dimen name="trlist_margin">5dp</dimen>
+
+    <dimen name="trlist_text_margin">3dp</dimen>
+
+    <dimen name="trlist_text_title_margin">10dp</dimen>
+
+    <dimen name="trlist_textsize">13sp</dimen>
+
+    <dimen name="listview_margin">5dp</dimen>
+
+    <dimen name="category_li_height">20dp</dimen>
+
+    <dimen name="category_li_width">80dp</dimen>
+
+    <dimen name="category_li_margin">5dp</dimen>
+
+    <dimen name="category_li_rt_margin">16dp</dimen>
+
+    <dimen name="category_title">13sp</dimen>
+
+    <dimen name="category_title_margin">3dp</dimen>
+
+    <dimen name="category_title_width">60dp</dimen>
+
+    <dimen name="chatlist_margin">16dp</dimen>
+
+    <dimen name="chatlist_img">50dp</dimen>
+
+    <dimen name="chatlist_day_text">10sp</dimen>
+
+    <dimen name="chatlist_text_size">13sp</dimen>
+
+    <dimen name="chatlist_person_text_width">40dp</dimen>
+
+    <dimen name="chatlist_person_text_margin">17dp</dimen>
+
+    <dimen name="chatlist_title_text_margin">2.4dp</dimen>
+
+    <dimen name="profile_ccimg">100dp</dimen>
+
+    <dimen name="profile_ccimg_border">2dp</dimen>
+
+    <dimen name="profile_ccimg_top">40dp</dimen>
+
+    <dimen name="profile_textview_top">5dp</dimen>
+
+    <dimen name="profile_textview_size">18sp</dimen>
+
+    <dimen name="profile_li_height">40dp</dimen>
+
+    <dimen name="profile_li_top">20dp</dimen>
+
+    <dimen name="profile_li_text_left">20dp</dimen>
+
+    <dimen name="profile_li_text_width">250dp</dimen>
+
+    <dimen name="profile_li_text_size">18sp</dimen>
+
+    <dimen name="profile_li_img">5dp</dimen>
+
+    <dimen name="pro_profile_fr_height">150dp</dimen>
+
+    <dimen name="pro_profile_li_left">12dp</dimen>
+
+    <dimen name="pro_profile_li_top">15dp</dimen>
+
+    <dimen name="pro_profile_text">12sp</dimen>
+
+    <dimen name="pro_profile_edit_width">290dp</dimen>
+
+    <dimen name="pro_profile_edit_left">15dp</dimen>
+
+    <dimen name="pro_profile_view_width">335dp</dimen>
+
+    <dimen name="pro_profile_view_top">7dp</dimen>
+
+    <dimen name="pro_profile_danger_text">8sp</dimen>
+
+    <dimen name="pro_profile_danger_top">4dp</dimen>
+
+    <dimen name="pro_friend_button_text">9sp</dimen>
+
+    <dimen name="pro_friend_text_width">190dp</dimen>
+
+    <dimen name="pro_friend_ok_left">7dp</dimen>
+
+    <dimen name="pro_friend_button_width">35dp</dimen>
+
+    <dimen name="pro_friend_button_height">29dp</dimen>
+
+    <!-- login 관련 dimens-->
+    <dimen name="login_img">192dp</dimen>
+
+    <dimen name="login_img_top1">30dp</dimen>
+
+    <dimen name="login_img_top2">50dp</dimen>
+
+    <dimen name="login_title">13sp</dimen>
+
+    <dimen name="login_danger_title">11sp</dimen>
+
+    <dimen name="login_width">328dp</dimen>
+
+    <dimen name="login_side_margin">16dp</dimen>
+
+    <dimen name="login_top_margin">75dp</dimen>
+
+    <dimen name="login_danger_margin">5dp</dimen>
+
+    <dimen name="login_margin_button">20dp</dimen>
+
+    <dimen name="login_button">16sp</dimen>
+
+    <dimen name="login_button_left">10dp</dimen>
+
+    <dimen name="login_gender_margin">7.6dp</dimen>
+
+    <dimen name="login_gender_width">159dp</dimen>
+
+    <dimen name="account_title_sub_top">153dp</dimen>
+
+    <dimen name="account_title_sub_left">120dp</dimen>
+
+    <dimen name="account_title_sub_text">9.2sp</dimen>
+
+    <dimen name="account_title1_left">140dp</dimen>
+
+    <dimen name="account_title1_text">32.3sp</dimen>
+
+    <dimen name="account_title2_text">9.2sp</dimen>
+
+    <dimen name="account_title3_left">190dp</dimen>
+
+    <dimen name="account_title3_text">32.3sp</dimen>
+
+    <dimen name="account_facebook_top">70dp</dimen>
+
+    <dimen name="account_button_text">9.2sp</dimen>
+
+    <dimen name="account_button_top">6.5dp</dimen>
+
+    <dimen name="account_button_width">246dp</dimen>
+
+    <dimen name="account_button_height">38.4dp</dimen>
+
+    <dimen name="account_sns_danger">6.15sp</dimen>
+
+    <dimen name="account_email_top">15.3dp</dimen>
+
+    <dimen name="account_email_text">9.2sp</dimen>
+
+    <dimen name="login_top">7.6dp</dimen>
+
+    <dimen name="login_text">9.2sp</dimen>
+
+    <dimen name="pop_li_width">290dp</dimen>
+
+    <dimen name="pop_li_height">140dp</dimen>
+
+    <dimen name="pop_margin">15.2dp</dimen>
+
+    <dimen name="pop_title">16sp</dimen>
+
+    <dimen name="pop_content">14sp</dimen>
+
+    <dimen name="pop_button_litop">7.6dp</dimen>
+
+    <dimen name="pop_button_text">12sp</dimen>
+
+    <dimen name="pop_button_width">46dp</dimen>
+
+    <dimen name="pop_button_height">38dp</dimen>
+
+    <dimen name="login_back">103dp</dimen>
+
+    <!--  여기까지가 로그인 관련 dimens-->
+
+    <dimen name="safe_list_margin">7.6dp</dimen>
+
+    <dimen name="safe_img">20dp</dimen>
+
+    <dimen name="safe_list_left">5dp</dimen>
+
+    <dimen name="safe_list_starleft">8dp</dimen>
+
+    <dimen name="facility_list_margintop">3.8dp</dimen>
+
+    <dimen name="facility_list_marginstart">14.5dp</dimen>
+
+    <dimen name="facility_list_titletext">18sp</dimen>
+
+    <dimen name="facility_list_contenttext">12sp</dimen>
+
+    <dimen name="library_list_li_width">290dp</dimen>
+
+    <dimen name="library_list_img_left">10dp</dimen>
+
+    <dimen name="chatroom_text_width">320dp</dimen>
+
+    <dimen name="chatroom_left">7.6dp</dimen>
+
+    <dimen name="chatroom_list_Top">3dp</dimen>
+
+    <dimen name="chatroom_list_Bottom">2dp</dimen>
+
+    <dimen name="chatroom_list_circleimg">27dp</dimen>
+
+    <dimen name="chatroom_list_margin">3.8dp</dimen>
+
+    <dimen name="chatroom_list_nickname_time">10sp</dimen>
+
+    <dimen name="chatroom_list_content">14sp</dimen>
+
+    <dimen name="chatlist_make_title">16sp</dimen>
+
+    <dimen name="chatlist_make_content">11sp</dimen>
+
+    <dimen name="chatlist_make_margin">7.6dp</dimen>
+
+    <dimen name="chatlist_make_date_width">81dp</dimen>
+
+    <dimen name="chatlist_make_date_height">18dp</dimen>
+
+    <dimen name="chatlist_make_button_text">13sp</dimen>
+
+    <dimen name="chatlist_make_top_margin">27dp</dimen>
+
+    <dimen name="chatroom_in_li_width">227dp</dimen>
+
+    <dimen name="chatroom_in_left">9dp</dimen>
+
+    <dimen name="chatroom_in_text">12sp</dimen>
+
+    <dimen name="chatroom_in_drawer_list_img">36dp</dimen>
+
+    <dimen name="chatroom_in_profile_top">18dp</dimen>
+
+    <dimen name="chatroom_in_profile_img">100dp</dimen>
+
+    <dimen name="chatroom_in_profile_img_top">250dp</dimen>
+
+    <dimen name="chatroom_in_profile_nickname">14sp</dimen>
+
+    <dimen name="chatroom_in_profile_bar_top">47dp</dimen>
+
+    <dimen name="chatroom_in_profile_set_top">36dp</dimen>
+
+    <dimen name="chatroom_in_profile_set_img">54dp</dimen>
+
+    <dimen name="chatroom_in_profile_set_left">72dp</dimen>
+
+    <dimen name="search_edit">220dp</dimen>
+
+    <dimen name="chatlist_search_edit">210dp</dimen>
+
+    <dimen name="chatroom_search_edit">310dp</dimen>
+
+    <dimen name="main_img_height">153dp</dimen>
+
+    <dimen name="course_listview_width">232dp</dimen>
+
+    <dimen name="facility_in_list_contents_width">225dp</dimen>
+
+    <!-- 게시판 -->
+    <dimen name="board_left">9dp</dimen>
+
+    <dimen name="board_topdown">11dp</dimen>
+
+    <dimen name="board_text_topleft">4dp</dimen>
+
+    <dimen name="board_title">16sp</dimen>
+
+    <dimen name="board_content">12sp</dimen>
+
+    <dimen name="board_rank_top">20dp</dimen>
+
+    <dimen name="board_rank_size">20sp</dimen>
+
+    <dimen name="board_all_text_maxwidth">325dp</dimen>
+
+    <dimen name="board_best_text_maxwidth">290dp</dimen>
+
+    <dimen name="board_search_edit">230dp</dimen>
+
+    <dimen name="board_remove_left">20dp</dimen>
+
+    <dimen name="viewpager_height">363dp</dimen>
+
+    <dimen name="spinner_height">23dp</dimen>
+
+    <dimen name="write_title_width">345dp</dimen>
+
+    <dimen name="write_title">14sp</dimen>
+
+    <dimen name="write_img">38dp</dimen>
+
+    <dimen name="write_content">12sp</dimen>
+
+    <dimen name="write_top_margin">7dp</dimen>
+
+    <dimen name="in_title">12sp</dimen>
+
+    <dimen name="in_viewpager">307dp</dimen>
+
+    <dimen name="in_margin">7dp</dimen>
+
+    <dimen name="in_content">12sp</dimen>
+
+    <dimen name="in_button_size">23dp</dimen>
+
+    <dimen name="in_title_width">240dp</dimen>
+
+    <dimen name="in_margin_20">12dp</dimen>
+
+    <dimen name="in_delete_text">14sp</dimen>
+
+    <dimen name="in_delete_width">45dp</dimen>
+
+    <dimen name="in_delete_marginright">8dp</dimen>
+
+    <dimen name="comment_me_li_Left">11dp</dimen>
+
+    <dimen name="comment_me_li_Top">15dp</dimen>
+
+    <dimen name="comment_me_img">30dp</dimen>
+
+    <dimen name="comment_margin10">7dp</dimen>
+
+    <dimen name="comment_textsize">12sp</dimen>
+
+    <dimen name="comment_detail_textsize">11sp</dimen>
+
+    <dimen name="comment_margin5">4dp</dimen>
+
+    <dimen name="comment_margin20">15dp</dimen>
+
+    <dimen name="comment_write_width">274dp</dimen>
+
+    <dimen name="comment_list_li">11dp</dimen>
+
+    <dimen name="comment_list_img">30dp</dimen>
+
+    <dimen name="comment_list_margin10">7dp</dimen>
+
+    <dimen name="comment_list_text">12sp</dimen>
+
+    <dimen name="comment_list_margin5">4dp</dimen>
+
+    <dimen name="comment_list_text_detail">11sp</dimen>
+
+    <dimen name="comment_list_reply">30dp</dimen>
+
+    <dimen name="comment_list_reply_view_top">15dp</dimen>
+
+    <dimen name="comment_list_reply_view_left">48dp</dimen>
+
+    <dimen name="comment_right_reply_li_left">48dp</dimen>
+
+    <dimen name="comment_right_reply_li_top">11dp</dimen>
+
+    <dimen name="comment_right_reply_img">30dp</dimen>
+
+    <dimen name="comment_right_reply_margin10">7dp</dimen>
+
+    <dimen name="comment_right_reply_text">12sp</dimen>
+
+    <dimen name="comment_right_reply_margin5">4dp</dimen>
+
+    <dimen name="comment_right_reply_text_detail">11sp</dimen>
+
+    <dimen name="comment_right_reply_margin15">11dp</dimen>
+
+    <!-- 게시판 -->
+
+
+</resources>

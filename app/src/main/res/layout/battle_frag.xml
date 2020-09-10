@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#ffffff">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/lol_logo2"/>
+
+    </android.support.v7.widget.Toolbar>
+
+
+
+
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/em_top"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="@dimen/chap_Height"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical"
+        android:padding="@dimen/imgPadding"
+        android:background="@drawable/layout_border">
+
+        <TextView
+            android:id="@+id/em_top_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TOP"
+            android:textSize="@dimen/chap_textSize"
+            android:textColor="#000000"
+            android:fontFamily="@font/tmonmonsori"/>
+
+
+        <ImageView
+            android:id="@+id/em_top_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/em_jg"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="@dimen/chap_Height"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        android:padding="@dimen/imgPadding"
+        android:background="@drawable/layout_border">
+
+        <TextView
+            android:id="@+id/em_jg_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JG"
+            android:textSize="@dimen/chap_textSize"
+            android:textColor="#000000"
+            android:fontFamily="@font/tmonmonsori"/>
+
+        <ImageView
+            android:id="@+id/em_jg_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/em_mid"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="@dimen/chap_Height"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        android:padding="@dimen/imgPadding"
+        android:background="@drawable/layout_border">
+
+        <TextView
+            android:id="@+id/em_mid_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MID"
+            android:textSize="@dimen/chap_textSize"
+            android:textColor="#000000"
+            android:fontFamily="@font/tmonmonsori"/>
+
+        <ImageView
+            android:id="@+id/em_mid_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/em_ad"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="@dimen/chap_Height"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        android:padding="@dimen/imgPadding"
+        android:background="@drawable/layout_border">
+
+        <TextView
+            android:id="@+id/em_ad_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AD"
+            android:textSize="@dimen/chap_textSize"
+            android:textColor="#000000"
+            android:fontFamily="@font/tmonmonsori"/>
+
+
+        <ImageView
+            android:id="@+id/em_ad_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/em_sup"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="@dimen/chap_Height"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        android:padding="@dimen/imgPadding"
+        android:background="@drawable/layout_border">
+
+
+        <TextView
+            android:id="@+id/em_sup_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUP"
+            android:textSize="@dimen/chap_textSize"
+            android:textColor="#000000"
+            android:fontFamily="@font/tmonmonsori"/>
+
+        <ImageView
+            android:id="@+id/em_sup_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"/>
+
+
+    </LinearLayout>
+</LinearLayout>
+
+    <ImageView
+        android:id="@+id/deep_vs"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/vs3"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/team_top"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/chap_Height"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical"
+            android:padding="@dimen/imgPadding"
+            android:background="@drawable/layout_border">
+
+            <TextView
+                android:id="@+id/team_top_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TOP"
+                android:textSize="@dimen/chap_textSize"
+                android:textColor="#000000"
+                android:fontFamily="@font/tmonmonsori"/>
+
+            <ImageView
+                android:id="@+id/team_top_img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/team_jg"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/chap_Height"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            android:padding="@dimen/imgPadding"
+            android:background="@drawable/layout_border">
+
+            <TextView
+                android:id="@+id/team_jg_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JG"
+                android:textSize="@dimen/chap_textSize"
+                android:textColor="#000000"
+                android:fontFamily="@font/tmonmonsori"/>
+
+            <ImageView
+                android:id="@+id/team_jg_img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/team_mid"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/chap_Height"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            android:padding="@dimen/imgPadding"
+            android:background="@drawable/layout_border">
+
+            <TextView
+                android:id="@+id/team_mid_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MID"
+                android:textSize="@dimen/chap_textSize"
+                android:textColor="#000000"
+                android:fontFamily="@font/tmonmonsori"/>
+
+
+            <ImageView
+                android:id="@+id/team_mid_img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/team_ad"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/chap_Height"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            android:padding="@dimen/imgPadding"
+            android:background="@drawable/layout_border">
+
+            <TextView
+                android:id="@+id/team_ad_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AD"
+                android:textSize="@dimen/chap_textSize"
+                android:textColor="#000000"
+                android:fontFamily="@font/tmonmonsori"/>
+
+
+            <ImageView
+                android:id="@+id/team_ad_img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/team_sup"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/chap_Height"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            android:padding="@dimen/imgPadding"
+            android:background="@drawable/layout_border">
+
+
+            <TextView
+                android:id="@+id/team_sup_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SUP"
+                android:textSize="@dimen/chap_textSize"
+                android:textColor="#000000"
+                android:fontFamily="@font/tmonmonsori"/>
+
+            <ImageView
+                android:id="@+id/team_sup_img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_corners"
+        android:orientation="vertical"
+        android:elevation="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_img"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#1795ff"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="10dp"
+            />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/profile_nickname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="T1 Wonjin"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/tmonmonsori"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/challenger"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Challenger 1,545 LP"
+                        />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="horizontal">
+
+
+`
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/renekton"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="90%"
+                    android:textSize="15sp"
+                    android:textColor="#ff0000"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="4.60:1"
+                    android:textColor="#1f8ecd"/>
+
+            </LinearLayout>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/atrox"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="96%"
+                    android:textSize="15sp"
+                    android:textColor="#ff0000"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="10.42:1"
+                    android:textColor="#e29205"/>
+
+            </LinearLayout>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/jax"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="85%"
+                    android:textSize="15sp"
+                    android:textColor="#ff0000"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="8.53:1"
+                    android:textColor="#2daf7f"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
